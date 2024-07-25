@@ -1,0 +1,37 @@
+[ {
+  "external_id" : "FTFY-17408",
+  "annotation_type" : "VULNERABILITY",
+  "path" : "pom.xml",
+  "line" : 3,
+  "summary" : "Build Misconfiguration: External Maven Dependency Repository",
+  "details" : "This maven build script relies on external sources, which could allow an attacker to insert malicious code into the final product or to take control of the build machine.\n\n\n",
+  "severity" : "LOW",
+  "link" : "http://13.209.176.153:8080/ssc/html/ssc/version/59/fix/17408/?engineType=SCA&issue=87E3EC5CC8154C006783CC461A6DDEEB"
+}, {
+  "external_id" : "FTFY-17406",
+  "annotation_type" : "VULNERABILITY",
+  "path" : "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java",
+  "line" : 14,
+  "summary" : "Unchecked Return Value",
+  "details" : "The method main() in EightBall.java ignores the value returned by read() on line 14, which could cause the program to overlook unexpected states and conditions.\n\n\n",
+  "severity" : "LOW",
+  "link" : "http://13.209.176.153:8080/ssc/html/ssc/version/59/fix/17406/?engineType=SCA&issue=536ABBC2D031F07B121D6A2E79BD572B"
+}, {
+  "external_id" : "FTFY-17407",
+  "annotation_type" : "VULNERABILITY",
+  "path" : "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java",
+  "line" : 14,
+  "summary" : "Path Manipulation",
+  "details" : "Attackers can control the file system path argument to FileReader() at EightBall.java line 14, which allows them to access or modify otherwise protected files.\n\n\n",
+  "severity" : "HIGH",
+  "link" : "http://13.209.176.153:8080/ssc/html/ssc/version/59/fix/17407/?engineType=SCA&issue=F6EF85BBCC02807F30F6B42AE4061AA8"
+}, {
+  "external_id" : "FTFY-17410",
+  "annotation_type" : "VULNERABILITY",
+  "path" : "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java",
+  "line" : 14,
+  "summary" : "Path Manipulation",
+  "details" : "Attackers can control the file system path argument to FileReader() at EightBall.java line 14, which allows them to access or modify otherwise protected files.\n\n\n",
+  "severity" : "LOW",
+  "link" : "http://13.209.176.153:8080/ssc/html/ssc/version/59/fix/17410/?engineType=SCA&issue=3064041A9354CE78485D298C3D31698B"
+} ]
